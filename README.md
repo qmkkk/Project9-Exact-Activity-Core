@@ -1,4 +1,4 @@
-# TJCAP: target-conditioned joint feasibility core
+# TCJAP: target-conditioned joint feasibility core
 
 A **limited public source release** of the local joint-count relation used in
 our extension of the DATE2026 exact-switching-activity synthesis algorithm.
