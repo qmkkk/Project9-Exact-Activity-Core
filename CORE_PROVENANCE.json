@@ -1,0 +1,20 @@
+{
+  "release_scope": "Limited public core; not the complete experimental artifact",
+  "integrated_source_sha256": "b23c1fc49baf485a051a758a98c3b50883063bb647776db6ffd0fd749bb1f5e6",
+  "extracted_function": "P9ClosedSupport",
+  "changes": [
+    "Removed dispatch to optional generic-table comparator",
+    "Fixed budget-filter mode to measured final mode38",
+    "Added input-validation and standalone C API; original row/count computation retained"
+  ],
+  "private_material_not_published": [
+    "complete solver integration and SAT explanation machinery",
+    "full experimental runners and raw traces",
+    "proof documents and internal reports",
+    "development history"
+  ],
+  "files": {
+    "src/joint_relation.c": "69384c16b93bb2de0293e82cbaf1f152aebca38a77539382fc82ee07d1d5e21c",
+    "src/joint_relation.h": "b101107f5613627f76275691b3a0a526d54147519036147f5fbbc1dda27c7182"
+  }
+}

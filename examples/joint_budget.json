@@ -1,0 +1,28 @@
+{
+  "rows": 16,
+  "target_hex": "003e",
+  "operators": 4,
+  "zeros": [
+    1,
+    1
+  ],
+  "ones": [
+    0,
+    0
+  ],
+  "domains": [
+    18,
+    18
+  ],
+  "charged": 3,
+  "budget": 100,
+  "expected_supported": [
+    0,
+    0
+  ],
+  "expected_without_budget": [
+    18,
+    18
+  ],
+  "note": "XOR, target population5, input folded domains{1,4}; local joint minimum activity126 exceeds budget100."
+}

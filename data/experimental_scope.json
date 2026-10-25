@@ -1,0 +1,86 @@
+{
+  "source": "Dated internal research snapshot2026-10-25",
+  "public_data": "Aggregate reported results, not full raw measurement records",
+  "overall": {
+    "functions": 208,
+    "seconds": 300,
+    "completed": {
+      "author_engineering": 71,
+      "strong_control": 73,
+      "full_method": 94
+    },
+    "cosolved_wall_geomean": {
+      "vs_author": 4.632656722,
+      "vs_strong": 2.820743893
+    }
+  },
+  "factorial": {
+    "actual_calls": 832,
+    "short_window": "208classes30s",
+    "long_window": "same preregistered48classes300s",
+    "shared_prefix": true,
+    "adverse_long_instances": [
+      "07b4",
+      "016f"
+    ],
+    "closed_kernel_vs_generic": "No independently established runtime advantage over same-relation genericGAC."
+  },
+  "eda": {
+    "circuits": 8,
+    "repetitions": 3,
+    "workflows": 72,
+    "solver_calls": 2331,
+    "returned_cells_verified": 2169,
+    "whole_circuit_equivalence_checks": 216,
+    "aggregate": {
+      "author_engineering": {
+        "circuits_same_useful_work": 7,
+        "geometric_speedup": 2.1940969613638983,
+        "adverse_same_work_circuits": [],
+        "same_work_circuit_names": [
+          "c2670",
+          "c5315",
+          "adder",
+          "bar",
+          "max",
+          "priority",
+          "router"
+        ],
+        "sum_median_wall_full_seconds": 313.5429505160006,
+        "sum_median_wall_control_seconds": 571.0339912470001,
+        "sum_median_wall_speedup": 1.8212305213918671,
+        "more_coverage_and_lower_median_time_circuits": [
+          "cavlc"
+        ]
+      },
+      "support_control": {
+        "circuits_same_useful_work": 7,
+        "geometric_speedup": 1.519075520443677,
+        "adverse_same_work_circuits": [],
+        "same_work_circuit_names": [
+          "c2670",
+          "c5315",
+          "adder",
+          "bar",
+          "max",
+          "priority",
+          "router"
+        ],
+        "sum_median_wall_full_seconds": 313.5429505160006,
+        "sum_median_wall_control_seconds": 430.44006600900025,
+        "sum_median_wall_speedup": 1.372826482944748,
+        "more_coverage_and_lower_median_time_circuits": [
+          "cavlc"
+        ]
+      }
+    }
+  },
+  "limits": [
+    "Public core alone cannot reproduce integrated-solver timing tables.",
+    "All timing cohorts stay separate; no pooled speedups.",
+    "Cold cell-library workflow; raw truth keys withoutNPN merging.",
+    "Uniform isolated-cut activity, not physical power or whole-circuit power optimality.",
+    "Four-input main scope; no five-input scaling claim.",
+    "Single host; no acceptance or general propagation novelty claim."
+  ]
+}
